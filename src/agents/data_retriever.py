@@ -46,14 +46,14 @@ class DataRetrieverAgent:
         Return format:
         {
             "values": {
-                "Total Current Assets FY2023": 5308,
-                "Total Current Assets FY2022": 5853,
-                "Raw Materials and Supplies FY2023": 992,
-                "Raw Materials and Supplies FY2022": 1114,
-                "Work in Process and Finished Goods FY2023": 1221,
-                "Work in Process and Finished Goods FY2022": 1325,
-                "Total Current Liabilities FY2023": 4476,
-                "Total Current Liabilities FY2022": 5103
+                "Total Current Assets FY2023": 9999,
+                "Total Current Assets FY2022": 8888,
+                "Raw Materials and Supplies FY2023": 7777,
+                "Raw Materials and Supplies FY2022": 6666,
+                "Work in Process and Finished Goods FY2023": 5555,
+                "Work in Process and Finished Goods FY2022": 4444,
+                "Total Current Liabilities FY2023": 3333,
+                "Total Current Liabilities FY2022": 2222
             }
         }
         """
