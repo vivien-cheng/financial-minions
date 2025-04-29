@@ -1,0 +1,80 @@
+[
+  {
+    "financebench_id": "financebench_id_00799",
+    "company": "Amcor",
+    "doc_name": "AMCOR_2023_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Numerical reasoning OR Logical reasoning",
+    "domain_question_num": "dg02",
+    "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
+    "answer": "The quick ratio has slightly improved from 0.67 times to 0.69 times between FY 2023 and FY 2022.(3.4% jump)",
+    "justification": "Quick Ratio= (Total current assets-(Raw materials and supplies+Work in process and finished goods))/Total current liabilities\n(5308-992-1221)/4476\n(5853-1114-1325)/5103",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Amcor plc and Subsidiaries\nConsolidated Balance Sheets\n($ in millions, except share and per share data)\nAs of June 30,\n2023\n2022\nAssets\n[...]",
+        "doc_name": "AMCOR_2023_10K",
+        "evidence_page_num": 51,
+        "evidence_text_full_page": "Amcor plc and Subsidiaries\nConsolidated Balance Sheets\n($ in millions, except share and per share data)\nAs of June 30,\n2023\n2022\nAssets\n[...]"
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00540",
+    "company": "AES Corporation",
+    "doc_name": "AES_2022_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Numerical reasoning OR Logical reasoning",
+    "domain_question_num": "dg25",
+    "question": "Roughly how many times has AES Corporation sold its inventory in FY2022? Calculate inventory turnover ratio for the FY2022; if conventional inventory management is not meaningful for the company then state that and explain why.",
+    "answer": "AES has converted inventory 9.5 times in FY 2022.",
+    "justification": "Cost of sales/Inventory\n10069/1055",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "Consolidated Balance Sheets\nDecember 31, 2022 and 2021\n[...]",
+        "doc_name": "AES_2022_10K",
+        "evidence_page_num": 129,
+        "evidence_text_full_page": "Consolidated Balance Sheets\nDecember 31, 2022 and 2021\n[...]"
+      },
+      {
+        "evidence_text": "Consolidated Statements of Operations\nYears ended December 31, 2022, 2021, and 2020\n[...]",
+        "doc_name": "AES_2022_10K",
+        "evidence_page_num": 131,
+        "evidence_text_full_page": "Consolidated Statements of Operations\nYears ended December 31, 2022, 2021, and 2020\n[...]"
+      }
+    ]
+  },
+  {
+    "financebench_id": "financebench_id_00499",
+    "company": "3M",
+    "doc_name": "3M_2022_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Logical reasoning (based on numerical reasoning)",
+    "domain_question_num": "dg06",
+    "question": "Is 3M a capital-intensive business based on FY2022 data?",
+    "answer": "No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:\nCAPEX/Revenue Ratio: 5.1%\nFixed assets/Total Assets: 20%\nReturn on Assets= 12.4%",
+    "justification": "CAPEX/Revenue\nFixed Assets/Total Assets\nROA=Net Income/Total Assets",
+    "dataset_subset_label": "OPEN_SOURCE",
+    "evidence": [
+      {
+        "evidence_text": "3M Company and Subsidiaries\nConsolidated Statement of Income\nYears ended December 31\n[...]",
+        "doc_name": "3M_2022_10K",
+        "evidence_page_num": 47,
+        "evidence_text_full_page": "3M Company and Subsidiaries\nConsolidated Statement of Income\nYears ended December 31\n[...]"
+      },
+      {
+        "evidence_text": "3M Company and Subsidiaries\nConsolidated Balance Sheet\nAt December 31\n[...]",
+        "doc_name": "3M_2022_10K",
+        "evidence_page_num": 49,
+        "evidence_text_full_page": "3M Company and Subsidiaries\nConsolidated Balance Sheet\nAt December 31\n[...]"
+      },
+      {
+        "evidence_text": "3M Company and Subsidiaries\nConsolidated Statement of Cash Flows\nYears ended December 31\n[...]",
+        "doc_name": "3M_2022_10K",
+        "evidence_page_num": 51,
+        "evidence_text_full_page": "3M Company and Subsidiaries\nConsolidated Statement of Cash Flows\nYears ended December 31\n[...]"
+      }
+    ]
+  }
+]  
