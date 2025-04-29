@@ -23,7 +23,6 @@ src/
 │   ├── registry.py         # Tool registration and management
 │   └── __init__.py         # Tool package initialization
 ├── utils/                   # Utility functions
-│   ├── table_extractor.py  # Extracts tables from documents
 │   ├── financial_data_validator.py # Validates financial data
 │   └── logging.py          # Logging configuration
 ├── examples/                # Example implementations
