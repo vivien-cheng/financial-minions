@@ -83,7 +83,7 @@ Run all examples:
 python src/examples/run_all.py
 ```
 
-Evaluate results:
+Run all examples + Evaluate results:
 ```bash
 python src/examples/evaluate_all.py
 ```
